@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<psys:request xmlns:psys="urn:iso:std:psys:request">
+	<id>ACHM0M000001Q</id>
+	<type>SR</type>
+	<format>MX</format>
+	<date>2017-11-16T19:42:15</date>
+	<signature>E194mVzMeYdY4bq7Ju+R5QmU7YhZ/P/ClZL9wW+YwcB8J4iahC1dTE6QUl7o8pHsfU+M8L/RkIAVHYVVZUE2vFC3TfxQZKjpcoUM7fNHUwea5wZZx3Wea0Qadab6uu/WLbNW9edCMmXFoZAlXJ/KvuzZ7k8zgtOLXFmC2781Z55ciNl74lvVycuMFpS4Xz1caHv+j2ft73Ht6oXmj0+kZS0SVpCON9OC2tmgKlW0LMcfrCBmrCM7xs6/SmGVRG6fZ7zUtrxtWBJh2iH72PhSoEN8N3FcedV12V8Ltf2pKGuUmudrd2s5EJFtOBOy+U9ii4bgF9138vqWTxsNrTdd6Q==</signature>
+	<content>
+		<![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.002.001.06" xmlns:ns2="http://www.Progressoft.com/ACH">
+    <FIToFIPmtStsRpt>
+        <GrpHdr>
+            <MsgId>ACHM0M000001Q</MsgId>
+            <CreDtTm>2017-11-16T19:42:15.267+04:00</CreDtTm>
+            <InstgAgt>
+                <FinInstnId>
+                    <BICFI>ACHMOMRX</BICFI>
+                </FinInstnId>
+            </InstgAgt>
+            <InstdAgt>
+                <FinInstnId>
+                    <BICFI>OMABOMRU</BICFI>
+                </FinInstnId>
+            </InstdAgt>
+        </GrpHdr>
+        <OrgnlGrpInfAndSts>
+            <OrgnlMsgId>OMAB0IVF10012</OrgnlMsgId>
+            <OrgnlMsgNmId>pacs.008.001.05</OrgnlMsgNmId>
+            <GrpSts>ACTC</GrpSts>
+        </OrgnlGrpInfAndSts>
+        <TxInfAndSts>
+            <StsId>ACHM0M000001Q001</StsId>
+            <OrgnlEndToEndId>CLP310171116H0019251</OrgnlEndToEndId>
+            <OrgnlTxId>OMAB0IVF10012001</OrgnlTxId>
+            <TxSts>ACTC</TxSts>
+        </TxInfAndSts>
+        <SplmtryData>
+            <Envlp>
+                <ns2:supplementaryData>
+                    <ns2:Items>
+                        <ns2:Item key="batchSource">2</ns2:Item>
+                        <ns2:Item key="session">1</ns2:Item>
+                    </ns2:Items>
+                </ns2:supplementaryData>
+            </Envlp>
+        </SplmtryData>
+    </FIToFIPmtStsRpt>
+</Document>]]>
+	</content>
+</psys:request>
